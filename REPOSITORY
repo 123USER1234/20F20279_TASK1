@@ -14,16 +14,4 @@ if len(NewCustomers) > 0:
 else:
 	print('There are no new customers.')
 
-CurrentCustomers = {
-	"Cust_A": {
-		"category": 15
-	},
-	"Cust_B": {
-		"category": 10
-	},
-	"Cust_C": {
-		"category": 1
-	}
-}
-
 DataAnalysis(CurrentCustomers)
